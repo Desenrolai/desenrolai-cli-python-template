@@ -1,0 +1,5 @@
+kind: cli
+tech: python
+# CLI tools are distributed as packages (pip/pipx), not deployed to the cluster.
+# No Dockerfile, no Kubernetes manifest, no ingress, no DNS record.
+deploy: none
