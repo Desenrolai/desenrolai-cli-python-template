@@ -9,7 +9,7 @@ on:
 jobs:
   ci:
     name: Lint / Typecheck / Test
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, desenrolai]
     steps:
       - uses: actions/checkout@v4
 
